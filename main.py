@@ -29,7 +29,6 @@ predictions = [
     "50/50 chance of meeting Shigeo"
 =======
     "Go chall you lazy bish",
-    "A surprise awaits you (email from DSS),
     "It's never late to change your major...or uni",
     "Shower today. SHOWER TODAY!"
 >>>>>>> ca875b63782ea91be667ad4d2f58159d722ed708
