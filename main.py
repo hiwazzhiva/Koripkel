@@ -4,9 +4,7 @@ import uuid
 from aiogram import Bot, Dispatcher, types
 from aiogram.types import InlineQueryResultArticle, InputTextMessageContent
 from aiogram.utils import executor
-=
 API_TOKEN = os.getenv("BOT_TOKEN")  # Railway environment variable
-=======
 
 
 bot = Bot(token=API_TOKEN)
