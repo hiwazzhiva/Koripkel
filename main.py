@@ -4,12 +4,10 @@ import uuid
 from aiogram import Bot, Dispatcher, types
 from aiogram.types import InlineQueryResultArticle, InputTextMessageContent
 from aiogram.utils import executor
-
-<<<<<<< HEAD
+=
 API_TOKEN = os.getenv("BOT_TOKEN")  # Railway environment variable
 =======
-API_TOKEN = os.getenv("BOT_TOKEN")  # Telegram bot token from environment
->>>>>>> ca875b63782ea91be667ad4d2f58159d722ed708
+
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
