@@ -5,19 +5,18 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.types import InlineQueryResultArticle, InputTextMessageContent
 from aiogram.utils import executor
 
-API_TOKEN = os.getenv("BOT_TOKEN")  # Bot token will come from environment variables
+API_TOKEN = os.getenv("BOT_TOKEN")  # Telegram bot token from environment
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 
-# You can change this list anytime
 predictions = [
-    "You will have a lucky day 🌟",
-    "Be careful today 🐍",
-    "Love is around the corner ❤️",
-    "A surprise awaits you 🎁",
-    "A new opportunity will open up soon 🚪",
-    "Your patience will be rewarded ⏳"
+    "You will be dismissed",
+    "It was a tough day, you deserve a coffee!",
+    "Go chall you lazy bish",
+    "A surprise awaits you (email from DSS),
+    "It's never late to change your major...or uni",
+    "Shower today. SHOWER TODAY!"
 ]
 
 @dp.inline_handler()
