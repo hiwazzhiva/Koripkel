@@ -5,7 +5,11 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.types import InlineQueryResultArticle, InputTextMessageContent
 from aiogram.utils import executor
 
+<<<<<<< HEAD
 API_TOKEN = os.getenv("BOT_TOKEN")  # Railway environment variable
+=======
+API_TOKEN = os.getenv("BOT_TOKEN")  # Telegram bot token from environment
+>>>>>>> ca875b63782ea91be667ad4d2f58159d722ed708
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
@@ -13,6 +17,7 @@ dp = Dispatcher(bot)
 predictions = [
     "You will be dismissed",
     "It was a tough day, you deserve a coffee!",
+<<<<<<< HEAD
     "Go chal you lazy bish",
     "A surprise awaits you (probation)",
     "It's never late to change your major...or uni",
@@ -22,6 +27,12 @@ predictions = [
     "You may receive a love letter from someone",
     "I hope this email finds you depressed...",
     "50/50 chance of meeting Shigeo"
+=======
+    "Go chall you lazy bish",
+    "A surprise awaits you (email from DSS),
+    "It's never late to change your major...or uni",
+    "Shower today. SHOWER TODAY!"
+>>>>>>> ca875b63782ea91be667ad4d2f58159d722ed708
 ]
 
 @dp.inline_handler()
